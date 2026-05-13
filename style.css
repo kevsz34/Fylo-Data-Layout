@@ -18,7 +18,7 @@ body{
     min-height: 100vh;
     
 }
-#container{
+main{
     display: flex;
 align-items: center;
     justify-content: center;
@@ -148,7 +148,7 @@ h2 span{
    
     
 }
-#container{
+main{
     align-items: center;
     flex-direction: column;
     min-height: 100vh;

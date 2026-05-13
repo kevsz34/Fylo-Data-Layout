@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"content="Fylo storage manager to see how much of storage is left.">
     <title>Fylo Data Storage</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="container">
+    <main>
         <article id="firstSect">
 
             <section id="logoName"><img src="images/logo.svg" alt=" Fylo Logo"></section>
 
             <section id="images">
-                <button><img src="images/icon-document.svg" alt=""></button>
-                <button><img src="images/icon-folder.svg" alt=""></button>
-                <button><img src="images/icon-upload.svg" alt=""></button>
+                <button aria-label="Document"><img src="images/icon-document.svg" alt=""></button>
+                <button aria-label="Folder"><img src="images/icon-folder.svg" alt=""></button>
+                <button aria-label="Upload"><img src="images/icon-upload.svg" alt=""></button>
             </section>
 
         </article>
@@ -27,7 +28,7 @@
             <div id="popup"><p><span>185</span> GB LEFT</p></div>
             <div id="popupArrow"><div id="cut"></div></div>
         </article>
-    </div>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
